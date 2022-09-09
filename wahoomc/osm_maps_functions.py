@@ -757,7 +757,7 @@ class OsmMaps:
         # Number of threads to use in the mapwriter plug-in
         threads = multiprocessing.cpu_count() - 1
         if int(threads) < 1:
-            threads = 1
+            threads = '1'
 
         tile_count = 1
         for tile in self.o_osm_data.tiles:
