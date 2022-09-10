@@ -850,9 +850,9 @@
 		  <m v="ice_cream">
 			<symbol src="icons/icecream.svg" symbol-percent="150"/>
 		  </m>
-		  <m v="fast_food">
+		  <!-- <m v="fast_food">
 			<symbol src="icons/fastfood.svg" symbol-percent="150"/>
-		  </m>
+		  </m> -->
 		  <m v="biergarten">
 			<symbol src="icons/drink.svg" symbol-percent="150"/>
 		  </m>
