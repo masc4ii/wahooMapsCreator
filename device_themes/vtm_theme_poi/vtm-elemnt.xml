@@ -84,8 +84,8 @@
    <style-line id="roam-track-raw-cycle" use="roam-track-raw" stroke="#0000FF" />
    <style-line id="bolt-track-raw-cycle" use="bolt-track-raw" />
 
-   <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" width="1.1" dasharray="6,3"/>
-   <style-line id="bolt2-track-raw-cycle-dark" use="bolt2-track-raw-dark" width="1.1" stroke="#00AAFF" />
+   <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" dasharray="6,3"/>
+   <style-line id="bolt2-track-raw-cycle-dark" use="bolt2-track-raw-dark" stroke="#00AAFF" />
    
    <!-- Tracks that don't have other info -->
    <style-line id="roam-track-other" cat="roam" stroke="#000000" width="1.0" dasharray="10,10" />
