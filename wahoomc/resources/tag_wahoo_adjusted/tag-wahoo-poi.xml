@@ -10,6 +10,7 @@
         <osm-tag key="amenity" value="ice_cream" zoom-appear="14" />
         <osm-tag key="amenity" value="fast_food" zoom-appear="14" />
         <osm-tag key="amenity" value="biergarten" zoom-appear="14" />
+        <osm-tag key="amenity" value="restaurant" zoom-appear="14" />
         <osm-tag key="shop" value="bakery" zoom-appear="14" /> 
 		<osm-tag key="shop" value="bicycle" zoom-appear="14" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
@@ -27,6 +28,7 @@
         <osm-tag key="amenity" value="ice_cream" zoom-appear="14" />
         <osm-tag key="amenity" value="fast_food" zoom-appear="14" />
         <osm-tag key="amenity" value="biergarten" zoom-appear="14" />
+        <osm-tag key="amenity" value="restaurant" zoom-appear="14" />
         <osm-tag key="shop" value="bakery" zoom-appear="14" /> 
 		<osm-tag key="shop" value="bicycle" zoom-appear="14" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
