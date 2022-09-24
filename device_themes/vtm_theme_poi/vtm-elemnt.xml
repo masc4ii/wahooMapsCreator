@@ -857,6 +857,9 @@
 		  <m v="biergarten">
 			<symbol src="icons/drink.svg" symbol-percent="150"/>
 		  </m>
+		  <m v="restaurant">
+			<symbol src="icons/restaurant.svg" symbol-percent="150"/>
+		  </m>
 		</m>
 		<m k="shop" >
 		  <m v="bakery">
