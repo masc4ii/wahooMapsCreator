@@ -563,15 +563,15 @@
 					v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="12">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5" />
                <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3.5" />
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5" />
-               <line cat="bolt2-dark" outline="bridge_small" cap="butt" stroke="#FFFF00" width="2.5" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.0" />
+               <line cat="bolt2-dark" outline="bridge_small" cap="butt" stroke="#FFFF00" width="2.0" />
             </m>
 				<m e="way" k="highway"
 					v="primary_link|trunk_link|primary|trunk" zoom-min="12">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5" />
                <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3.5" />
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5" />
-               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.0" />
+               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="trunk" zoom-max="12" zoom-min="11">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4" />
@@ -582,8 +582,8 @@
             <m e="way" k="highway" v="motorway_link" zoom-min="12">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5" />
                <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3.5" />
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5" />
-               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#AA5500" width="2.5" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
+               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="12">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4" />
@@ -594,8 +594,8 @@
             <m e="way" k="highway" v="motorway_link" zoom-min="8" zoom-max="11">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5" />
                <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3.5" />
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5" />
-               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#AA5500" width="2.5" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
+               <line cat="bolt2-dark" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4" />
@@ -668,9 +668,9 @@
 		  <m v="biergarten">
 			<symbol src="icons/drink.svg" symbol-percent="150"/>
 		  </m>
-		  <m v="restaurant">
+		  <!--<m v="restaurant">
 			<symbol src="icons/restaurant.svg" symbol-percent="150"/>
-		  </m>
+		  </m>-->
 		</m>
 		<m k="shop" >
 		  <m v="bakery">
