@@ -855,7 +855,7 @@
 			<symbol src="icons/fastfood.svg" symbol-percent="150"/>
 		  </m> -->
 		  <m v="biergarten">
-			<symbol src="icons/drink.svg" symbol-percent="150"/>
+			<symbol src="icons/drink.svg" symbol-percent="120"/>
 		  </m>
 		  <!--m v="restaurant">
 			<symbol src="icons/restaurant.svg" symbol-percent="150"/>
