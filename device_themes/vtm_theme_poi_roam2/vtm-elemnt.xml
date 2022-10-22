@@ -557,7 +557,7 @@
                <line outline="bridge" cap="butt" stroke="#FF0000" width="1.3" dasharray="15,2" />
             </m>
             <m e="way" k="highway" v="unclassified|residential|living_street|road" zoom-min="12">
-               <line outline="bridge" cap="butt" stroke="#FFFFFF" width="2" />
+               <line outline="bridge" cap="butt" stroke="#FFFFFF" width="1.3" />
             </m>
 				<m e="way" k="highway"
 					v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="12">
