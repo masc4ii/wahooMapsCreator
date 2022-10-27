@@ -319,7 +319,7 @@
                <line outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.2" />
             </m>
             <m e="way" k="highway" v="service" zoom-min="12">
-               <line outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.3" />
+               <line outline="bridge_small" cap="butt" stroke="#AAAAAA" width="0.8" />
             </m>
             <m e="way" k="highway" v="construction">
                <line outline="bridge" cap="butt" stroke="#FF0000" width="1.3" dasharray="15,2" />
