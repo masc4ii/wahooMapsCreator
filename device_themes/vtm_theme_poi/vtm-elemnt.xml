@@ -124,7 +124,7 @@
 					</m>
 					<m k="highway" v="path" zoom-min="14">
 						<!-- remainder -->
-						<line use="bolt2-footpath" dasharray="10,7"/>
+						<line use="bolt2-footpath" dasharray="3,10"/>
 					</m>
             </m>
             <m e="way" k="highway" v="track|byway" zoom-min="13" select="first">   
