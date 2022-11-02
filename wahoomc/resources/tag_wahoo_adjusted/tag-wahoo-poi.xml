@@ -17,6 +17,7 @@
 	<osm-tag key="tourism"  value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" value="castle" zoom-appear="14" />
+	<osm-tag key="leisure"  value="picnic_table" zoom-appear="14" />
 	<osm-tag key="natural"  value="spring" zoom-appear="14" />
 	<osm-tag key="natural"  value="peak" zoom-appear="13" />
 	<osm-tag key="mountain_pass"  value="yes" zoom-appear="14" />
@@ -38,6 +39,7 @@
 	<osm-tag key="tourism"  label-position="true" value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  label-position="true" value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" label-position="true" value="castle" zoom-appear="14" />
+	<osm-tag key="leisure"  label-position="true" value="picnic_table" zoom-appear="14" />
 	<osm-tag key="natural"  label-position="true" value="spring" zoom-appear="14" />
 		
 	<osm-tag key="railway"  label-position="true" value="station" zoom-appear="13" /> 
