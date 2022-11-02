@@ -567,6 +567,11 @@
 				<symbol src="icons/castle.svg" symbol-percent="150"/>
 		  	</m>
 		</m>
+		<m k="leisure" >
+		  	<m v="picnic_table">
+				<symbol src="icons/tourist_picnic.svg" symbol-percent="100"/>
+		  	</m>
+		</m>
 		<m k="natural" >
 		  	<m v="spring">
 				<symbol src="icons/spring.svg" symbol-percent="150"/>
