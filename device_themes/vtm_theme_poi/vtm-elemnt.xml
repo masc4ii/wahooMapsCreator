@@ -576,6 +576,9 @@
 		  	<m v="viewpoint">
 				<symbol src="icons/viewpoint.svg" symbol-percent="130"/>
 		  	</m>
+		  	<m v="picnic_site">
+				<symbol src="icons/tourist_picnic.svg" symbol-percent="100"/>
+		  	</m>
 		</m>
     </m>
     <m k="natural" v="peak" zoom-min="13">
