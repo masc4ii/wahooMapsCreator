@@ -14,6 +14,7 @@
 	<osm-tag key="amenity"  value="restaurant" zoom-appear="14" />
 	<osm-tag key="shop"     value="bakery" zoom-appear="14" /> 
 	<osm-tag key="shop"     value="bicycle" zoom-appear="14" />
+	<osm-tag key="tourism"  value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" value="castle" zoom-appear="14" />
 	<osm-tag key="natural"  value="spring" zoom-appear="14" />
@@ -34,6 +35,7 @@
 	<osm-tag key="amenity"  label-position="true" value="restaurant" zoom-appear="14" />
 	<osm-tag key="shop"     label-position="true" value="bakery" zoom-appear="14" /> 
 	<osm-tag key="shop"     label-position="true" value="bicycle" zoom-appear="14" />
+	<osm-tag key="tourism"  label-position="true" value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  label-position="true" value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" label-position="true" value="castle" zoom-appear="14" />
 	<osm-tag key="natural"  label-position="true" value="spring" zoom-appear="14" />
