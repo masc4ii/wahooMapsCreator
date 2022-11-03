@@ -586,6 +586,9 @@
 		  	</m>
 		</m>
     </m>
+    <m k="amenity" v="bench" zoom-min="16">
+		<symbol src="icons/bench.svg" symbol-percent="100"/>
+	</m>
     <m k="natural" v="peak" zoom-min="13">
 		<symbol src="icons/poi_peak2_black.svg" symbol-percent="80"/>
 	</m>
