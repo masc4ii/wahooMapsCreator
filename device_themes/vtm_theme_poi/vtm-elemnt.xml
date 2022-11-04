@@ -589,13 +589,13 @@
     <m k="amenity" v="bench" zoom-min="16">
 		<symbol src="icons/bench.svg" symbol-percent="100"/>
 	</m>
-    <m k="natural" v="peak" zoom-min="13">
+    <m k="natural" v="peak|volcano" zoom-min="13">
 		<symbol src="icons/poi_peak2_black.svg" symbol-percent="80"/>
 	</m>
-	<m k="natural" v="peak" zoom-min="15">
+	<m k="natural" v="peak|volcano" zoom-min="15">
         <caption k="ele" font-style="bold" position="below" font-size="10" fill="#000000" />
 	</m>
-	<m k="natural" v="peak" zoom-min="17">
+	<m k="natural" v="peak|volcano" zoom-min="17">
         <caption k="name" font-style="bold" position="above" font-size="10" fill="#000000" />
 	</m>
 	<m k="mountain_pass" v="yes" zoom-min="14">
