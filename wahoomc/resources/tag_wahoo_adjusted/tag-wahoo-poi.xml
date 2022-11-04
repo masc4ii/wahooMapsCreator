@@ -21,6 +21,7 @@
 	<osm-tag key="leisure"  value="picnic_table" zoom-appear="14" />
 	<osm-tag key="natural"  value="spring" zoom-appear="14" />
 	<osm-tag key="natural"  value="peak" zoom-appear="13" />
+	<osm-tag key="natural"  value="volcano" zoom-appear="13" />
 	<osm-tag key="mountain_pass"  value="yes" zoom-appear="14" />
 		
 	<osm-tag key="railway"  value="station" zoom-appear="13" /> 
