@@ -476,7 +476,7 @@ class OsmMaps:
                 # Non-Windows
                 else:
                     cmd = ['python3', os.path.join(RESOURCES_DIR,
-                                                  'shape2osm.py'), '-l', out_file, land_file]
+                                                  'shape2osm.py'), '-l', out_file_land1, land_file]
 
                 run_subprocess_and_log_output(
                     cmd, f'! Error creating land.osm for tile: {tile["x"]},{tile["y"]}')
