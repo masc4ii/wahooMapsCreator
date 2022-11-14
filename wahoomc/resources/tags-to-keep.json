@@ -11,7 +11,11 @@
         "amenity": [
             "fuel",
             "cafe",
-            "drinking_water"
+            "drinking_water",
+            "ice_cream",
+            "biergarten",
+            "restaurant",
+            "bench"
         ],
         "shop": [
             "bakery",
@@ -46,6 +50,12 @@
             "trunk_link",
             "unclassified"
         ],
+        "historic": [
+        	"castle"
+        ],
+        "mountain_pass": [
+        	"yes"
+        ],
         "natural": [
             "coastline",
             "nosea",
@@ -55,7 +65,10 @@
             "scrub",
             "water",
             "wetland",
-            "wood"
+            "wood",
+            "spring",
+            "peak",
+            "volcano"
         ],
         "landuse": [
             "forest",
@@ -66,15 +79,23 @@
         ],
         "leisure": [
             "park",
-            "nature_reserve"
+            "nature_reserve",
+            "picnic_table"
         ],
         "railway": [
             "rail",
+            "narrow_gauge",
+            "subway",
             "tram",
             "station",
+            "halt",
             "stop"
         ],
         "surface": "",
+        "tourism": [
+        	"viewpoint",
+        	"picnic_site"
+        ],
         "tracktype": "",
         "tunnel": "",
         "waterway": [
