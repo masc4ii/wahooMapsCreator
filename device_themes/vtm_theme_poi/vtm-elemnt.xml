@@ -26,7 +26,7 @@
    <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" dasharray="6,3"/>
    <!-- Tracks that don't have other info -->
    <style-line id="bolt2-track-other" cat="bolt2" stroke="#555555" width="1.1" dasharray="5,5" />
-   <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#ff00AA" />						   
+   <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#555555" />						   
    <!-- Paved Cycleways-->
    <style-line id="bolt2-cycle" cat="bolt2" stroke="#AAAAAA" width="1.1" />
    <!-- end region -->
@@ -542,7 +542,7 @@
 				<symbol src="icons/drinking_water.svg" symbol-percent="150"/>
 		  	</m>
 		  	<m v="ice_cream">
-				<symbol src="icons/icecream.svg" symbol-percent="150"/>
+				<symbol src="icons/icecream.svg" symbol-percent="130"/>
 		  	</m>
 		  	<!-- <m v="fast_food">
 				<symbol src="icons/fastfood.svg" symbol-percent="150"/>
@@ -572,6 +572,11 @@
 				<symbol src="icons/tourist_picnic.svg" symbol-percent="100"/>
 		  	</m>
 		</m>
+		<m k="shelter_type" >
+		  	<m v="picnic_shelter">
+				<symbol src="icons/tourist_picnic.svg" symbol-percent="100"/>
+		  	</m>
+		</m>
 		<m k="natural" >
 		  	<m v="spring">
 				<symbol src="icons/spring.svg" symbol-percent="150"/>
@@ -589,13 +594,13 @@
     <m k="amenity" v="bench" zoom-min="16">
 		<symbol src="icons/bench.svg" symbol-percent="100"/>
 	</m>
-    <m k="natural" v="peak|volcano" zoom-min="13">
+    <m k="natural" v="peak" zoom-min="13">
 		<symbol src="icons/poi_peak2_black.svg" symbol-percent="80"/>
 	</m>
-	<m k="natural" v="peak|volcano" zoom-min="15">
+	<m k="natural" v="peak" zoom-min="15">
         <caption k="ele" font-style="bold" position="below" font-size="10" fill="#000000" />
 	</m>
-	<m k="natural" v="peak|volcano" zoom-min="17">
+	<m k="natural" v="peak" zoom-min="17">
         <caption k="name" font-style="bold" position="above" font-size="10" fill="#000000" />
 	</m>
 	<m k="mountain_pass" v="yes" zoom-min="14">
