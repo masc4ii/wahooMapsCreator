@@ -74,11 +74,7 @@
             "volcano"
         ],
         "landuse": [
-            "forest",
-            "commercial",
-            "industrial",
-            "residential",
-            "retail"
+            "forest"
         ],
         "leisure": [
             "park",
