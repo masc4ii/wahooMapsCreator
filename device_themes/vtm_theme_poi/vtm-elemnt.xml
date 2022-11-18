@@ -42,9 +42,9 @@
 	  	<area cat="bolt2" fill="#55FF55" fade="8" blend="12" blend-fill="#AAFFAA"/>
 	  	<!--area cat="bolt2" src="icons/wood.svg" symbol-height="128" /-->
    	</m>
-   	<!-- ><m e="way" k="landuse" v="building">
-	  	<area cat="bolt2" fill="#AAAAAA" fade="8" blend="13" blend-fill="#FFAAFF" />
-   	</m> -->
+   	<m e="way" k="landuse" v="building">
+	  	<area cat="bolt2" fill="#FFAAFF" />
+   	</m>
    	<m e="way" k="leisure" v="park|nature_reserve">
       	<area cat="bolt2" fill="#AAFF55" />
 	  	<!--area cat="bolt2" src="icons/park.svg" symbol-height="128" /-->
@@ -218,12 +218,12 @@
       	<m e="way" k="area" v="~|no|false">
 	  
         <!-- region paths & tracks -->
-        <m k="access" v="private" zoom-min="16">
+        <m k="access" v="private" zoom-min="14">
             <m e="way" k="highway" v="path" zoom-min="12">
-                <line stroke="#000000" width="0.2" dasharray="12,6" cap="butt" />
+                <line stroke="#000000" width="0.3" dasharray="12,6" cap="butt" />
             </m>
             <m e="way" k="highway" v="footway|pedestrian" zoom-min="13">
-                <line stroke="#000000" width="0.2" dasharray="9,3" cap="butt" />
+                <line stroke="#000000" width="0.3" dasharray="9,3" cap="butt" />
             </m>
             <m e="way" k="highway" v="steps">
                 <line stroke="#000000" width="0.3" dasharray="9,9" cap="butt" />
@@ -594,13 +594,13 @@
     <m k="amenity" v="bench" zoom-min="16">
 		<symbol src="icons/bench.svg" symbol-percent="100"/>
 	</m>
-    <m k="natural" v="peak" zoom-min="13">
+    <m k="natural" v="peak|volcano" zoom-min="13">
 		<symbol src="icons/poi_peak2_black.svg" symbol-percent="80"/>
 	</m>
-	<m k="natural" v="peak" zoom-min="15">
+	<m k="natural" v="peak|volcano" zoom-min="15">
         <caption k="ele" font-style="bold" position="below" font-size="10" fill="#000000" />
 	</m>
-	<m k="natural" v="peak" zoom-min="17">
+	<m k="natural" v="peak|volcano" zoom-min="17">
         <caption k="name" font-style="bold" position="above" font-size="10" fill="#000000" />
 	</m>
 	<m k="mountain_pass" v="yes" zoom-min="14">
