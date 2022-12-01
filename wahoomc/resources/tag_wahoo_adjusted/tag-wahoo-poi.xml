@@ -138,6 +138,7 @@
   <!-- OTHER TAGS -->
   <ways>
     <osm-tag key="area" value="yes" zoom-appear="3" />
+    <osm-tag key="place" value="square" zoom-appear="8" />
   </ways>
 
   <!-- NOT TO RENDER -->

@@ -97,6 +97,7 @@
         ],
         "route": "ferry",
         "man_made": "pier",
+        "place": "square",
         "surface": "",
         "tourism": [
         	"viewpoint",

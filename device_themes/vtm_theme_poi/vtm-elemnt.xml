@@ -45,6 +45,14 @@
    	<m e="way" k="landuse" v="building">
 	  	<area cat="bolt2" fill="#FFAAFF" />
    	</m>
+   	<m e="way" k="place" v="square" zoom-min="10">
+      	<area cat="bolt2" fill="#FFFFFF" />
+   	</m>
+   	<m e="way" k="area" v="yes" zoom-min="10">
+   		<m e="way" k="highway" v="pedestrian" zoom-min="10">
+	      	<area cat="bolt2" fill="#FFFFFF" />
+	    </m>
+   	</m>
    	<m e="way" k="leisure" v="park|nature_reserve">
       	<area cat="bolt2" fill="#AAFF55" />
 	  	<!--area cat="bolt2" src="icons/park.svg" symbol-height="128" /-->
@@ -475,7 +483,7 @@
 			<m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="12">
                <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.0" />
             </m>
-			<m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="12">
+			<m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="9">
                <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="trunk" zoom-max="12" zoom-min="11">
@@ -594,9 +602,11 @@
 		<m k="building" >
 		  	<m v="cathedral">
 				<symbol src="icons/christian-cross-icon.svg" symbol-percent="70"/>
+				<area cat="bolt2" fill="#FFAAFF" />
 		  	</m>
 		  	<m v="church">
 				<symbol src="icons/christian-cross-icon.svg" symbol-percent="70"/>
+				<area cat="bolt2" fill="#FFAAFF" />
 		  	</m>
 		</m>
 		<m k="leisure" >
