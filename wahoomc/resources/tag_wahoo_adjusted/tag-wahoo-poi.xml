@@ -18,6 +18,8 @@
 	<osm-tag key="tourism"  value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" value="castle" zoom-appear="14" />
+	<osm-tag key="building" value="church" zoom-appear="14" />
+	<osm-tag key="building" value="cathedral" zoom-appear="14" />
 	<osm-tag key="leisure"  value="picnic_table" zoom-appear="14" />
 	<osm-tag key="natural"  value="spring" zoom-appear="14" />
 	<osm-tag key="natural"  value="peak" zoom-appear="13" />
@@ -43,6 +45,8 @@
 	<osm-tag key="tourism"  label-position="true" value="picnic_site" zoom-appear="14" />
 	<osm-tag key="tourism"  label-position="true" value="viewpoint" zoom-appear="14" />
 	<osm-tag key="historic" label-position="true" value="castle" zoom-appear="14" />
+	<osm-tag key="building" label-position="true" value="church" zoom-appear="14" />
+	<osm-tag key="building" label-position="true" value="cathedral" zoom-appear="14" />
 	<osm-tag key="leisure"  label-position="true" value="picnic_table" zoom-appear="14" />
 	<osm-tag key="natural"  label-position="true" value="spring" zoom-appear="14" />
 	<osm-tag key="shelter_type" label-position="true" value="picnic_shelter" zoom-appear="14" />
@@ -96,7 +100,9 @@
   <ways>
     <osm-tag key="natural" value="nosea" zoom-appear="3" />
     <osm-tag key="natural" value="sea" zoom-appear="3" />
-    
+
+    <osm-tag key="man_made" value="pier" zoom-appear="8" />
+        
     <osm-tag key="natural" value="beach" zoom-appear="10" />
     <osm-tag key="natural" value="scrub" zoom-appear="8" />
     <osm-tag key="natural" value="water" zoom-appear="8" />
@@ -125,6 +131,8 @@
   <ways>
     <osm-tag key="railway" value="rail" zoom-appear="10" />
     <osm-tag key="railway" value="narrow_gauge" zoom-appear="10"/>
+    
+    <osm-tag key="route" value="ferry" zoom-appear="10"/>
   </ways>
 
   <!-- OTHER TAGS -->
