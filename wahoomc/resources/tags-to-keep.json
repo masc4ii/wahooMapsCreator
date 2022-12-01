@@ -15,7 +15,8 @@
             "ice_cream",
             "biergarten",
             "restaurant",
-            "bench"
+            "bench",
+            "place_of_worship"
         ],
         "shelter_type": [
         	"picnic_shelter"
@@ -94,6 +95,8 @@
             "halt",
             "stop"
         ],
+        "route": "ferry",
+        "man_made": "pier",
         "surface": "",
         "tourism": [
         	"viewpoint",
