@@ -24,6 +24,8 @@
    <!-- Non-paved tracks -->
    <style-line id="bolt2-track-raw" cat="bolt2" stroke="#555555" width="0.8" dasharray="3,3" />
    <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" width="0.8" dasharray="6,3"/>
+   <style-line id="bolt2-track-raw2" cat="bolt2" stroke="#555555" width="0.5" dasharray="3,3" />
+   <style-line id="bolt2-track-raw-cycle2" cat="bolt2" stroke="#555555" width="0.5" dasharray="6,3"/>
    <!-- Tracks that don't have other info -->
    <style-line id="bolt2-track-other" cat="bolt2" stroke="#555555" width="1.1" dasharray="5,5" />
    <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#555555" />						   
@@ -177,14 +179,16 @@
                      <line use="bolt2-track-raw" dasharray="10,7" />
                   </m>
                </m>
+               </m>
+			   <m zoom-min="14">
                <m k="tracktype" v="grade4">
                   <!-- Mostly soft. Almost always an unpaved track prominently with soil/sand/grass,
 						but with some hard or compacted materials mixed in. -->
                   <m k="bicycle" v="bic_yes|bic_designated">
-                     <line use="bolt2-track-raw-cycle" dasharray="10,7" />
+                     <line use="bolt2-track-raw-cycle2" dasharray="10,7" />
                   </m>
                   <m k="bicycle" v="~">
-                     <line use="bolt2-track-raw" dasharray="10,7" />
+                     <line use="bolt2-track-raw2" dasharray="10,7" />
                   </m>
                </m>
                <m k="tracktype" v="grade5">
@@ -192,16 +196,18 @@
 						same as surrounding soil.
 						eg. -27.611406,153.165486 -->
                   <m k="bicycle" v="bic_yes|bic_designated">
-                     <line use="bolt2-track-raw-cycle" dasharray="10,7" />
+                     <line use="bolt2-track-raw-cycle2" dasharray="10,7" />
                   </m>
                   <m k="bicycle" v="~">
-                     <line use="bolt2-track-raw" dasharray="10,7" />
+                     <line use="bolt2-track-raw2" dasharray="10,7" />
                   </m>
                </m>			   
                <m k="highway" v="path">
                   <!--  other paths that haven't already matched -->
                   <line use="bolt2-footpath" dasharray="10,7"/>
                </m>
+               </m>
+			   <m zoom-min="13">
                <m e="way" k="tracktype" v="~" select="first">
                   <!--  other tracks that haven't already matched -->
                   <m k="bicycle" v="bic_yes|bic_designated">
@@ -332,10 +338,10 @@
                <m k="tracktype" v="grade1">
                   <!-- Solid. Usually a paved or sealed surface-->
                   <m k="bicycle" v="bic_yes|bic_designated">
-                     <line use="bolt2-track-paved-cycle" />
+                     <line use="bolt2-track-paved-cycle" outline="bolt2-bikepath" />
                   </m>
                   <m k="bicycle" v="~">
-                     <line use="bolt2-track-paved" />
+                     <line use="bolt2-track-paved" outline="bolt2-bikepath" />
                   </m>
                </m>
 			   <m zoom-min="13">
@@ -357,14 +363,16 @@
                      <line use="bolt2-track-raw" dasharray="45,3,5,3,5,3,5,3" />
                   </m>
                </m>
+               </m>
+			   <m zoom-min="14">
                <m k="tracktype" v="grade4">
                   <!-- Mostly soft. Almost always an unpaved track prominently with soil/sand/grass,
 						but with some hard or compacted materials mixed in. -->
                   <m k="bicycle" v="bic_yes|bic_designated">
-                     <line use="bolt2-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3" />
+                     <line use="bolt2-track-raw-cycle2" dasharray="40,3,5,3,5,3,5,3,5,3" />
                   </m>
                   <m k="bicycle" v="~">
-                     <line use="bolt2-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3" />
+                     <line use="bolt2-track-raw2" dasharray="40,3,5,3,5,3,5,3,5,3" />
                   </m>
                </m>
                <m k="tracktype" v="grade5">
@@ -382,6 +390,8 @@
                   <!--  other paths that haven't already matched -->
                   <line use="bolt2-footpath" />
                </m>
+               </m>
+			   <m zoom-min="13">
                <m e="way" k="tracktype" v="~" select="first">
                   <!--  other tracks that haven't already matched -->
                   <m k="bicycle" v="bic_yes|bic_designated">
