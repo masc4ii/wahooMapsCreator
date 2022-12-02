@@ -22,8 +22,8 @@
    <style-line id="bolt2-track-paved" cat="bolt2" stroke="#AAAAAA" width="1.1" />
    <style-line id="bolt2-track-paved-cycle" use="bolt2-track-paved" />
    <!-- Non-paved tracks -->
-   <style-line id="bolt2-track-raw" cat="bolt2" stroke="#555555" width="1.1" dasharray="3,3" />
-   <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" dasharray="6,3"/>
+   <style-line id="bolt2-track-raw" cat="bolt2" stroke="#555555" width="0.8" dasharray="3,3" />
+   <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#555555" width="0.8" dasharray="6,3"/>
    <!-- Tracks that don't have other info -->
    <style-line id="bolt2-track-other" cat="bolt2" stroke="#555555" width="1.1" dasharray="5,5" />
    <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#555555" />						   
@@ -47,10 +47,12 @@
    	</m>
    	<m e="way" k="place" v="square" zoom-min="10">
       	<area cat="bolt2" fill="#FFFFFF" />
+      	<!--line cat="bolt2" width="0.5" stroke="#000000" /-->
    	</m>
    	<m e="way" k="area" v="yes" zoom-min="10">
    		<m e="way" k="highway" v="pedestrian" zoom-min="10">
 	      	<area cat="bolt2" fill="#FFFFFF" />
+	      	<!--line cat="bolt2" width="0.5" stroke="#000000" /-->
 	    </m>
    	</m>
    	<m e="way" k="leisure" v="park|nature_reserve">
@@ -156,7 +158,7 @@
                      <line use="bolt2-track-paved" dasharray="10,7"/>
                   </m>
                </m>
-			   <m zoom-min="14">
+			   <m zoom-min="13">
                <m k="tracktype" v="grade2">
                   <!-- Solid but unpaved. Usually an unpaved track with surface of gravel. -->
                   <m k="bicycle" v="bic_yes|bic_designated">
@@ -336,7 +338,7 @@
                      <line use="bolt2-track-paved" />
                   </m>
                </m>
-			   <m zoom-min="14">
+			   <m zoom-min="13">
                <m k="tracktype" v="grade2">
                   <!-- Solid but unpaved. Usually an unpaved track with surface of gravel. -->
                   <m k="bicycle" v="bic_yes|bic_designated">
