@@ -35,7 +35,7 @@
    
    <!-- region land/sea/waterways -->
    	<m e="way" k="natural" v="sea" >
-     	<area cat="bolt2" fill="#00FFFF" /> 
+     	<area cat="bolt2" fill="#00AAFF" /> 
    	</m>
    	<m e="way" k="natural" v="nosea">
       	<area cat="bolt2" fill="#ffffff" mesh="true" />
