@@ -53,7 +53,6 @@
 		
 	<osm-tag key="railway"  label-position="true" value="station" zoom-appear="13" /> 
 	<osm-tag key="railway"  label-position="true" value="halt" zoom-appear="13" /> 
-	<osm-tag key="railway"  label-position="true" value="stop" zoom-appear="13" /> 
   </ways>
   <!-- PLACES TAGS -->
   <pois>

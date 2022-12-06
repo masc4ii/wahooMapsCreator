@@ -92,8 +92,7 @@
             "subway",
             "tram",
             "station",
-            "halt",
-            "stop"
+            "halt"
         ],
         "route": "ferry",
         "man_made": "pier",
