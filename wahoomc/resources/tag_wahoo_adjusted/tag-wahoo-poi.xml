@@ -138,6 +138,7 @@
   <ways>
     <osm-tag key="area" value="yes" zoom-appear="3" />
     <osm-tag key="place" value="square" zoom-appear="8" />
+    <osm-tag key="border_type" value="nation" zoom-appear="3" />
   </ways>
 
   <!-- NOT TO RENDER -->
