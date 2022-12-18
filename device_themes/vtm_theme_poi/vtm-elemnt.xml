@@ -545,7 +545,17 @@
          </m>
       </m>
    </m>
-   <!-- endregion railway -->
+   <!-- endregion ferry -->
+   
+   <!-- boundary -->
+   <m k="border_type">
+      <m v="nation">
+      	 <m zoom-min="3">
+         	<line stroke="#AA00AA" width="3" cap="butt" />
+         </m>
+      </m>
+   </m>
+   <!-- endregion boundary -->
    
    	<!-- region place captions -->
    	<m k="place">
