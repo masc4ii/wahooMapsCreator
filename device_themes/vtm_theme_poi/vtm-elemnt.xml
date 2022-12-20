@@ -548,10 +548,10 @@
    <!-- endregion ferry -->
    
    <!-- boundary -->
-   <m k="border_type">
-      <m v="nation">
+   <m k="admin_level">
+      <m v="2">
       	 <m zoom-min="3">
-         	<line stroke="#AA00AA" width="3" cap="butt" />
+         	<line stroke="#AA00AA" width="2.5" cap="butt" />
          </m>
       </m>
    </m>
