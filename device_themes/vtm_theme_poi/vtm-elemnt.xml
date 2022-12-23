@@ -57,6 +57,12 @@
 	      	<!--line cat="bolt2" width="0.5" stroke="#000000" /-->
 	    </m>
    	</m>
+   	<m e="way" k="area" v="yes" zoom-min="10">
+   		<m e="way" k="highway" v="footway" zoom-min="10">
+	      	<area cat="bolt2" fill="#AAAAAA" />
+	      	<!--line cat="bolt2" width="0.5" stroke="#000000" /-->
+	    </m>
+   	</m>
    	<m e="way" k="leisure" v="park|nature_reserve">
       	<area cat="bolt2" fill="#AAFF55" />
 	  	<!--area cat="bolt2" src="icons/park.svg" symbol-height="128" /-->
