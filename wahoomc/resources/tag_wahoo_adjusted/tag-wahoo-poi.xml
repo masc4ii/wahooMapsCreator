@@ -139,6 +139,10 @@
     <osm-tag key="area" value="yes" zoom-appear="3" />
     <osm-tag key="place" value="square" zoom-appear="8" />
     <osm-tag key="admin_level" value="2" zoom-appear="3" />
+    <osm-tag key="aeroway" label-position="true" value="aerodrome" zoom-appear="8" />
+    <osm-tag key="aeroway" value="runway" zoom-appear="8" />
+    <osm-tag key="aeroway" value="taxiway" zoom-appear="8" />
+    <osm-tag key="landuse" value="military" zoom-appear="8" />
   </ways>
 
   <!-- NOT TO RENDER -->

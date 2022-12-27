@@ -1,6 +1,11 @@
 {
     "TAGS_TO_KEEP_UNIVERSAL": {
         "access": "",
+        "aeroway": [
+        	"aerodrome",
+        	"runway",
+        	"taxiway"
+        ],
         "area": "yes",
         "bicycle": "",
         "bridge": "",
@@ -78,6 +83,7 @@
             "forest",
             "commercial",
             "industrial",
+            "military",
             "residential",
             "retail"
         ],
