@@ -503,11 +503,19 @@
             <m e="way" k="highway" v="residential|living_street|road|unclassified" zoom-min="10" zoom-max="12">
                <line cat="bolt2" stroke="#FFFFFF" outline="bolt2-major-roads" width="1.5" />
             </m>
-            <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="9">
+            <m e="way" k="highway" v="tertiary_link|secondary_link" zoom-min="9">
                <pathText display="always" cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" zoom-min="14" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFFF00" width="2.0" />
             </m>
-            <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9">
+            <m e="way" k="highway" v="primary_link|trunk_link|motorway_link" zoom-min="9">
+               <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+               <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.0" />
+            </m>
+            <m e="way" k="highway" v="tertiary|secondary" zoom-min="9">
+               <pathText display="always" cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" zoom-min="14" />
+               <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFFF00" width="2.0" />
+            </m>
+            <m e="way" k="highway" v="primary|trunk" zoom-min="9">
                <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.0" />
             </m>
@@ -546,13 +554,13 @@
                <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="3" />
             </m>
             <m e="way" k="highway" v="motorway_link" zoom-min="12">
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="12">
                <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="3.5" />
             </m>
             <m e="way" k="highway" v="motorway_link" zoom-min="8" zoom-max="11">
-               <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.0" />
+               <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="4" />
