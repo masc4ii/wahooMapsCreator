@@ -110,7 +110,7 @@
    	
    	<!-- region military -->
    	<m e="way" k="landuse" v="military" zoom-min="10">
-   		<line cat="bolt2" width="1" stroke="#FFAAAA" />
+   		<line cat="bolt2" width="1" stroke="#FF5555" />
 		<area cat="bolt2" src="icons/stripesDown.svg" symbol-height="32" />
 	</m>
    	<!-- endregion military -->
