@@ -21,7 +21,8 @@
             "biergarten",
             "restaurant",
             "bench",
-            "place_of_worship"
+            "place_of_worship",
+            "hospital"
         ],
         "shelter_type": [
         	"picnic_shelter"
@@ -36,7 +37,6 @@
             "disused",
             "bridleway",
             "byway",
-            "construction",
             "cycleway",
             "footway",
             "living_street",
