@@ -93,6 +93,7 @@
     <osm-tag key="highway" value="trunk" zoom-appear="8" />
     <osm-tag key="highway" value="trunk_link" zoom-appear="10" />
     <osm-tag key="highway" value="unclassified" zoom-appear="10" />
+    <osm-tag key="man_made" value="cutline" zoom-appear="14" />
 
   </ways>
 

@@ -97,6 +97,9 @@
    	<m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
 		<area cat="bolt2" fill="#00AAFF"/>
 	</m>
+	<m e="way" k="man_made" v="cutline" zoom-min="14">
+      	<line cat="bolt2" width="1" stroke="#AAAA55" />
+   	</m>
    	<!-- endregion land/sea/waterways -->
 
    	<!-- region aeroway -->
@@ -661,7 +664,7 @@
 				<symbol src="icons/restaurant.svg" symbol-percent="150"/>
 		  	</m> -->
 		  	<m v="hospital">
-				<symbol src="icons/hospital.svg" symbol-percent="130"/>
+				<symbol src="icons/hospital.svg" symbol-percent="110"/>
 		  	</m>
 		</m>
 		<m k="shop" >
