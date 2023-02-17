@@ -31,6 +31,18 @@
    <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#555555" />
    <!-- Paved Cycleways-->
    <style-line id="bolt2-cycle" cat="bolt2" stroke="#AAAAAA" width="1.1" />
+   <!-- Elevation / contour lines-->
+    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#555500" width="0.4"/>
+	<style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#555500" width="0.395"/>
+	<style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#555500" width="0.38"/>
+	<style-line id="bolt2-elevation-med-maj-z15" cat="bolt2" stroke="#555500" width="0.365"/>
+	<style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#555500" width="0.35"/>
+	<style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#555500" width="0.34"/>
+	<style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AAAA00" width="0.365"/>
+	<style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AAAA00" width="0.345"/>
+	<style-line id="bolt2-elevation-min-z15" cat="bolt2" stroke="#AAAA00" width="0.335"/>
+	<style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AAAA00" width="0.32"/>
+	<style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AAAA00" width="0.32"/>
    <!-- end region -->
 
    <!-- region land/sea/waterways -->
@@ -113,6 +125,70 @@
       	<line cat="bolt2" width="2" stroke="#AAAAFF" />
    	</m>
    	<!-- endregion aeroway -->
+
+	<!-- contour lines optimized for low-res displays interval = 10,(50/100)(Sony Xperia active)-->
+	<!-- Contour lines below level 12 do not make sense because of the optimization prozessof the map-creator -->
+	<!-- Level 12 + 13 do not render nice, there seems to be a bug in the renderer -->
+	<!-- contour lines level 12 -->
+	<m e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z12"/>
+		</m>
+	</m>
+	<!-- contour lines level 13 -->
+	<m e="way" k="contour_ext" zoom-min="13" zoom-max="13">
+		<m e="way" k="contour_ext" v="elevation_minor">
+			<line use="bolt2-elevation-min-z13"/>
+		</m>
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z13"/>
+		</m>
+	</m>
+	<!-- contour lines level 14-->
+	<m e="way" k="contour_ext" zoom-min="14" zoom-max="14">
+		<m e="way" k="contour_ext" v="elevation_minor">
+			<line use="bolt2-elevation-min-z14"/>
+		</m>
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z14"/>
+		</m>
+	</m>
+	<!-- contour lines level 15-->
+	<m e="way" k="contour_ext" zoom-min="15" zoom-max="15">
+		<m e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
+			<line use="bolt2-elevation-min-z15"/>
+		</m>
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z15"/>
+			<m e="way">
+				<!--pathText k="ele" font-style="bold" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="1.0"/-->
+			</m>
+		</m>
+	</m>
+	<!-- contour lines level 16 -->
+	<m e="way" k="contour_ext" zoom-min="16" zoom-max="16">
+		<m e="way" k="contour_ext" v="elevation_minor">
+			<line use="bolt2-elevation-min-z16"/>
+		</m>
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z16"/>
+			<m e="way">
+				<!--pathText k="ele" font-style="bold" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="1.0"/-->
+			</m>
+		</m>
+	</m>
+	<!-- contour lines level 17 and above -->
+	<m e="way" k="contour_ext" zoom-min="17">
+		<m e="way" k="contour_ext" v="elevation_minor">
+			<line use="bolt2-elevation-min-z17"/>
+		</m>
+		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
+			<line use="bolt2-elevation-med-maj-z17"/>
+			<m e="way">
+				<!--pathText k="ele" font-style="bold" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="1.0"/-->
+			</m>
+		</m>
+	</m>
 
    	<!-- region military -->
    	<m e="way" k="landuse" v="military" zoom-min="10">
