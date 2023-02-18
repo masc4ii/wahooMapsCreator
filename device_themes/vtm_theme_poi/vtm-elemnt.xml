@@ -88,28 +88,7 @@
    	<m e="way" k="natural" v="beach" zoom-min="12">
       	<area cat="bolt2" fill="#FFFF00" />
    	</m>
-	<m e="way" k="natural" v="water">
-		<area cat="bolt2" fill="#00AAFF"/>
-	</m>
-	<m e="way" k="man_made" v="pier" zoom-min="12">
-      	<line cat="bolt2" width="1" stroke="#FFFFAA" />
-   	</m>
-   	<m e="way" k="area" v="yes" zoom-min="12">
-   		<m e="way" k="man_made" v="pier" zoom-min="12">
-	      	<area cat="bolt2" fill="#FFFFAA" />
-	    </m>
-   	</m>
-   	<m e="way" k="waterway" v="river|canal">
-      	<line cat="bolt2" width="1" stroke="#00AAFF" />
-      	<pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="3.0" zoom-min="14" />
-   	</m>
-   	<m e="way" k="waterway" v="stream" zoom-min="14">
-      	<line cat="bolt2" width="0.7" stroke="#00AAFF" />
-   	</m>
-   	<m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
-		<area cat="bolt2" fill="#00AAFF"/>
-	</m>
-	<m e="way" k="man_made" v="cutline" zoom-min="14">
+   	<m e="way" k="man_made" v="cutline" zoom-min="14">
       	<line cat="bolt2" width="1" stroke="#AAAA55" />
    	</m>
    	<!-- endregion land/sea/waterways -->
@@ -189,6 +168,33 @@
 			</m>
 		</m>
 	</m>
+	
+	<!-- region lakes/reservoirs/peers over contour lines -->
+	<m e="way" k="waterway" v="river|canal">
+      	<line cat="bolt2" width="1" stroke="#00AAFF" />
+      	<pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="3.0" zoom-min="14" />
+   	</m>
+   	<m e="way" k="waterway" v="stream" zoom-min="14">
+      	<line cat="bolt2" width="0.7" stroke="#00AAFF" />
+   	</m>
+   	<m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
+		<area cat="bolt2" fill="#00AAFF"/>
+	</m>
+	<m e="way" k="landuse" v="reservoir">
+		<area cat="bolt2" fill="#00AAFF"/>
+	</m>
+	<m e="way" k="natural" v="water">
+		<area cat="bolt2" fill="#00AAFF"/>
+	</m>
+	<m e="way" k="man_made" v="pier" zoom-min="12">
+      	<line cat="bolt2" width="1" stroke="#FFFFAA" />
+   	</m>
+   	<m e="way" k="area" v="yes" zoom-min="12">
+   		<m e="way" k="man_made" v="pier" zoom-min="12">
+	      	<area cat="bolt2" fill="#FFFFAA" />
+	    </m>
+   	</m>
+   	<!-- end region lakes/reservoirs/peers over contour lines -->
 
    	<!-- region military -->
    	<m e="way" k="landuse" v="military" zoom-min="10">
