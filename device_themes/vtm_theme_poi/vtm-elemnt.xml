@@ -32,17 +32,17 @@
    <!-- Paved Cycleways-->
    <style-line id="bolt2-cycle" cat="bolt2" stroke="#AAAAAA" width="1.1" />
    <!-- Elevation / contour lines-->
-    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#555500" width="0.4"/>
-	<style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#555500" width="0.395"/>
-	<style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#555500" width="0.38"/>
-	<style-line id="bolt2-elevation-med-maj-z15" cat="bolt2" stroke="#555500" width="0.365"/>
-	<style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#555500" width="0.35"/>
-	<style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#555500" width="0.34"/>
-	<style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AAAA00" width="0.365"/>
-	<style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AAAA00" width="0.345"/>
-	<style-line id="bolt2-elevation-min-z15" cat="bolt2" stroke="#AAAA00" width="0.335"/>
-	<style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AAAA00" width="0.32"/>
-	<style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AAAA00" width="0.32"/>
+    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#550000" width="0.4"/>
+	<style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#550000" width="0.395"/>
+	<style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#550000" width="0.38"/>
+	<style-line id="bolt2-elevation-med-maj-z15" cat="bolt2" stroke="#550000" width="0.365"/>
+	<style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#550000" width="0.35"/>
+	<style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#550000" width="0.34"/>
+	<style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AA5500" width="0.395"/>
+	<style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AA5500" width="0.38"/>
+	<style-line id="bolt2-elevation-min-z15" cat="bolt2" stroke="#AA5500" width="0.365"/>
+	<style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AA5500" width="0.35"/>
+	<style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AA5500" width="0.34"/>
    <!-- end region -->
 
    <!-- region land/sea/waterways -->
@@ -109,9 +109,9 @@
 	<!-- Contour lines below level 12 do not make sense because of the optimization prozessof the map-creator -->
 	<!-- Level 12 + 13 do not render nice, there seems to be a bug in the renderer -->
 	<!-- contour lines level 12 -->
-	<m e="way" k="contour_ext" v="*" zoom-min="12" zoom-max="12">
+	<m e="way" k="contour_ext" zoom-min="12" zoom-max="12">
 		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<line use="bolt2-elevation-med-maj-z12"/>
+			<!--line use="bolt2-elevation-med-maj-z12"/-->
 		</m>
 	</m>
 	<!-- contour lines level 13 -->
