@@ -56,9 +56,9 @@
 	<osm-tag key="railway"  label-position="true" value="halt" zoom-appear="13" />
   </ways>
   <ways>
-  	<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="12" />
-  	<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="12" />
-  	<osm-tag key="contour_ext" value="elevation_major" zoom-appear="12" />
+  	<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="12" force-polygon-line="true"/>
+  	<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="12" force-polygon-line="true"/>
+  	<osm-tag key="contour_ext" value="elevation_major" zoom-appear="12" force-polygon-line="true"/>
   	<osm-tag key="ele" value="100" zoom-appear="14"/>
     <osm-tag key="ele" value="200" zoom-appear="14"/>
     <osm-tag key="ele" value="300" zoom-appear="14"/>
@@ -196,7 +196,7 @@
   <ways>
     <osm-tag key="area" value="yes" zoom-appear="3" />
     <osm-tag key="place" value="square" zoom-appear="8" />
-    <osm-tag key="admin_level" value="2" zoom-appear="3" />
+    <osm-tag key="admin_level" value="2" zoom-appear="3" force-polygon-line="true"/>
     <osm-tag key="aeroway" label-position="true" value="aerodrome" zoom-appear="8" />
     <osm-tag key="aeroway" value="runway" zoom-appear="8" />
     <osm-tag key="aeroway" value="taxiway" zoom-appear="8" />
