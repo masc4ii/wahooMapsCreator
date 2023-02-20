@@ -32,17 +32,17 @@
    <!-- Paved Cycleways-->
    <style-line id="bolt2-cycle" cat="bolt2" stroke="#AAAAAA" width="1.1" />
    <!-- Elevation / contour lines-->
-    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#550000" width="0.4"/>
-	<style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#550000" width="0.395"/>
-	<style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#550000" width="0.38"/>
+    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#550000" width="0.8"/>
+	<style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#550000" width="0.64"/>
+	<style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#550000" width="0.48"/>
 	<style-line id="bolt2-elevation-med-maj-z15" cat="bolt2" stroke="#550000" width="0.365"/>
-	<style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#550000" width="0.35"/>
-	<style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#550000" width="0.34"/>
-	<style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AA5500" width="0.395"/>
-	<style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AA5500" width="0.38"/>
+	<style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#550000" width="0.30"/>
+	<style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#550000" width="0.24"/>
+	<style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AA5500" width="0.64"/>
+	<style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AA5500" width="0.48"/>
 	<style-line id="bolt2-elevation-min-z15" cat="bolt2" stroke="#AA5500" width="0.365"/>
-	<style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AA5500" width="0.35"/>
-	<style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AA5500" width="0.34"/>
+	<style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AA5500" width="0.30"/>
+	<style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AA5500" width="0.24"/>
    <!-- end region -->
 
    <!-- region land/sea/waterways -->
@@ -168,7 +168,7 @@
 			</m>
 		</m>
 	</m>
-	
+
 	<!-- region lakes/reservoirs/peers over contour lines -->
 	<m e="way" k="waterway" v="river|canal">
       	<line cat="bolt2" width="1" stroke="#00AAFF" />
