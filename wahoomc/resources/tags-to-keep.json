@@ -22,7 +22,8 @@
             "restaurant",
             "bench",
             "place_of_worship",
-            "hospital"
+            "hospital",
+            "bank"
         ],
         "shelter_type": [
         	"picnic_shelter"

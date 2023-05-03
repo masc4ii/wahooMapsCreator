@@ -12,6 +12,7 @@
 	<osm-tag key="amenity"  value="fast_food" zoom-appear="14" />
 	<osm-tag key="amenity"  value="biergarten" zoom-appear="14" />
 	<osm-tag key="amenity"  value="restaurant" zoom-appear="14" />
+	<osm-tag key="amenity"  value="bank" zoom-appear="14" />
 	<osm-tag key="amenity"  value="hospital" zoom-appear="10" />
 	<osm-tag key="amenity"  value="bench" zoom-appear="16" />
 	<osm-tag key="shop"     value="bakery" zoom-appear="14" />
@@ -39,6 +40,7 @@
 	<osm-tag key="amenity"  label-position="true" value="fast_food" zoom-appear="14" />
 	<osm-tag key="amenity"  label-position="true" value="biergarten" zoom-appear="14" />
 	<osm-tag key="amenity"  label-position="true" value="restaurant" zoom-appear="14" />
+	<osm-tag key="amenity"  label-position="true" value="bank" zoom-appear="14" />
 	<osm-tag key="amenity"  label-position="true" value="hospital" zoom-appear="10" />
 	<osm-tag key="amenity"  label-position="true" value="bench" zoom-appear="16" />
 	<osm-tag key="shop"     label-position="true" value="bakery" zoom-appear="14" />
