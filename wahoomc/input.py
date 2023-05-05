@@ -15,7 +15,7 @@ from tkinter import ttk
 # import custom python packages
 from wahoomc.geofabrik_json import GeofabrikJson
 from wahoomc.geofabrik_json import CountyIsNoGeofabrikCountry
-from wahoomc.geofabrik import get_countries_from_input
+from wahoomc.geofabrik import CountryGeofabrik
 
 
 def process_call_of_the_tool():
@@ -211,14 +211,10 @@ class InputData():  # pylint: disable=too-many-instance-attributes,too-few-publi
                 "Country and X/Y coordinates are given. Only one of both is allowed!")
         elif self.country:
             # countries =
-            for country in get_countries_from_input(self.country):
-                try:
-                    country = GeofabrikJson().translate_id_no_to_geofabrik(
-                        country)
-                except CountyIsNoGeofabrikCountry:
-                    sys.exit(
-                        f"Entered country '{country}' is not a geofabrik country. Please check this URL for possible countries \
-                            https://download.geofabrik.de/index.html!")
+            try:
+                CountryGeofabrik.split_input_to_list(self.country)
+            except CountyIsNoGeofabrikCountry as exception:
+                sys.exit(exception)
 
             # if we made it until here, sys.exit() was not called and therefore all countries OK ;-)
             return True
@@ -304,6 +300,7 @@ class GuiInput(tk.Tk):
         self.o_input_data.force_download = tab1.third.checkb_download.get()
         self.o_input_data.force_processing = tab1.third.checkb_processing_val.get()
         self.o_input_data.process_border_countries = tab1.third.checkb_border_countries_val.get()
+        self.o_input_data.contour = tab1.third.checkb_contour_val.get()
 
         self.o_input_data.save_cruiser = tab2.first.checkb_save_cruiser_val.get()
         self.o_input_data.zip_folder = tab2.first.checkb_zip_folder_val.get()
@@ -400,10 +397,13 @@ class CheckbuttonsTab1(tk.Frame):
 
         self.checkb_border_countries_val = create_checkbox(self, oInputData.process_border_countries,
                                                            "Process border countries", 0)
+        self.checkb_contour_val = create_checkbox(self, oInputData.verbose,
+                                                  "process contour lines (elevation data)", 1)
+
         self.chk_force_download.grid(
-            column=0, row=1, sticky=tk.W, padx=15, pady=5)
+            column=0, row=2, sticky=tk.W, padx=15, pady=5)
         self.checkb_processing_val = create_checkbox(self, oInputData.force_processing,
-                                                     "Force processing", 2)
+                                                     "Force processing", 3)
 
 
 class Buttons(tk.Frame):
