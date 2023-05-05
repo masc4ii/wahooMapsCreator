@@ -746,7 +746,7 @@
 				<symbol src="icons/restaurant.svg" symbol-percent="150"/>
 		  	</m> -->
 		  	<m v="bank">
-				<symbol src="icons/sparkasse.png" symbol-percent="60"/>
+				<symbol src="icons/sparkissen.png" symbol-percent="60"/>
 		  	</m>
 		  	<m v="hospital">
 				<symbol src="icons/hospital.svg" symbol-percent="110"/>
