@@ -126,7 +126,7 @@ def check_installation_of_required_programs():
                 f"mapsforge-map-writer plugin is not installed. {text_to_docu}")
 
 
-def check_installation_of_programs_credentials_for_contour_lines():
+def check_installation_of_additional_programs():
     """
     check if additionals programs are installed
     """
@@ -137,11 +137,6 @@ def check_installation_of_programs_credentials_for_contour_lines():
     if not is_program_installed("phyghtmap"):
         sys.exit(
             f"phyghtmap is not installed. {text_to_docu}")
-
-    username, password = read_earthexplorer_credentials()
-
-    if not username or not password:
-        username, password = ask_for_and_write_earthexplorer_credentials()
 
 
 def is_program_installed(program):
