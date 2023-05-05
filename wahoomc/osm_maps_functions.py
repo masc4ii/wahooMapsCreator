@@ -521,35 +521,6 @@ class OsmMaps:
             tile_count += 1
 
         log.info('+ Generate sea for each coordinate: OK')
-        
-    def generate_elevation(self):
-        """
-        Generate elevation for all tiles
-        """
-        
-        log.info('-' * 80)
-        log.info('# Generate elevation for each coordinate')
-        
-        tile_count = 1
-        for tile in self.o_osm_data.tiles:
-            outFile = os.path.join(
-                USER_OUTPUT_DIR, f'{tile["x"]}', f'{tile["y"]}', f'elevation')
-            if not os.path.isfile(outFile) or self.o_osm_data.force_processing is True:
-                print(f'# Generate elevation {tile_count} for coordinates: {tile["x"]} {tile["y"]}' )
-                cmd = ['phyghtmap']
-                cmd.append('-a ' + f'{tile["left"]}' + ':' + f'{tile["bottom"]}' + 
-                             ':' + f'{tile["right"]}' + ':' + f'{tile["top"]}')
-                cmd.extend(['-o', f'{outFile}', '-s 10', '-c 100,50', '--source=view1,view3,srtm3',
-                            '--jobs=8', '--viewfinder-mask=1', '--start-node-id=20000000000', 
-                            '--max-nodes-per-tile=0', '--start-way-id=2000000000', '--write-timestamp', 
-                            '--no-zero-contour', '--earthexplorer-user=', '--earthexplorer-password='])
-                #print(cmd)
-                result = subprocess.run(cmd)
-            if result.returncode != 0:
-            	print(f'Error in phyghtmap with tile: {tile["x"]},{tile["y"]}')
-            	sys.exit()    
-            		
-        log.info('+ Generate sea for each coordinate: OK')
 
     def generate_elevation(self):
         """
@@ -682,8 +653,6 @@ class OsmMaps:
             out_file_merged = os.path.join(out_tile_dir, 'merged.osm.pbf')
 
             land_files = glob.glob(os.path.join(out_tile_dir, 'land*.osm'))
-            
-            elevation_files = glob.glob(os.path.join(out_tile_dir, 'elevation*.osm'))
 
             elevation_files = glob.glob(
                 os.path.join(out_tile_dir, 'elevation*.osm'))
@@ -731,7 +700,7 @@ class OsmMaps:
                 ['--rx', 'file='+os.path.join(out_tile_dir, 'sea.osm'), '--s', '--m'])
             cmd.extend(['--tag-transform', 'file=' + os.path.join(RESOURCES_DIR,
                                                                   'tunnel-transform.xml'), '--wb', out_file_merged, 'omitmetadata=true'])
-            #print(cmd)
+
             run_subprocess_and_log_output(
                 cmd, f'! Error in Osmosis with tile: {tile["x"]},{tile["y"]}')
 
@@ -779,7 +748,7 @@ class OsmMaps:
         # Number of threads to use in the mapwriter plug-in
         threads = multiprocessing.cpu_count() - 1
         if int(threads) < 1:
-            threads = '1'
+            threads = 1
 
         tile_count = 1
         for tile in self.o_osm_data.tiles:

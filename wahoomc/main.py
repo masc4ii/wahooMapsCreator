@@ -80,9 +80,6 @@ def run(run_level):
 
         # Generate sea
         o_osm_maps.generate_sea()
-        
-        # Generate elevation
-        o_osm_maps.generate_elevation()
 
         # Generate elevation
         if o_input_data.contour:
