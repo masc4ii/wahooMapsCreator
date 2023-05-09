@@ -1,6 +1,7 @@
 {
     "TAGS_TO_KEEP_UNIVERSAL": {
         "access": "",
+        "admin_level": "2",
         "aeroway": [
         	"aerodrome",
         	"runway",
