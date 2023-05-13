@@ -52,15 +52,24 @@
    	<m e="way" k="natural" v="nosea">
       	<area cat="bolt2" fill="#ffffff" mesh="true" />
    	</m>
-   	<m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
-	  	<area cat="bolt2" fill="#55FF55" fade="8" blend="12" blend-fill="#AAFFAA"/>
-	  	<!--area cat="bolt2" src="icons/wood.svg" symbol-height="128" /-->
-   	</m>
    	<m e="way" k="landuse" v="building">
 	  	<area cat="bolt2" fill="#FFAAFF" />
    	</m>
    	<m k="amenity" v="hospital">
 	  	<area cat="bolt2" fill="#FFAAFF" />
+   	</m>
+   	<m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
+	  	<area cat="bolt2" fill="#55FF55" fade="8" blend="12" blend-fill="#AAFFAA"/>
+	  	<!--area cat="bolt2" src="icons/wood.svg" symbol-height="128" /-->
+   	</m>
+   	<m k="landuse" v="cemetery">
+	  	<area cat="bolt2" fill="#00FF00" />
+   	</m>
+   	<m k="cemetery" v="sector">
+	  	<area cat="bolt2" fill="#00FF00" />
+   	</m>
+   	<m k="amenity" v="grave_yard">
+	  	<area cat="bolt2" fill="#00FF00" />
    	</m>
    	<m e="way" k="place" v="square" zoom-min="10">
       	<area cat="bolt2" fill="#FFFFFF" />

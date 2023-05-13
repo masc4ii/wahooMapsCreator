@@ -24,7 +24,8 @@
             "bench",
             "place_of_worship",
             "hospital",
-            "bank"
+            "bank",
+            "grave_yard"
         ],
         "shelter_type": [
         	"picnic_shelter"
@@ -94,7 +95,8 @@
             "military",
             "reservoir",
             "residential",
-            "retail"
+            "retail",
+            "cemetery"
         ],
         "leisure": [
             "park",

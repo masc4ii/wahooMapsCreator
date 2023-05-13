@@ -169,6 +169,9 @@
 
     <osm-tag key="landuse" value="forest" zoom-appear="8" />
 	<osm-tag key="landuse" value="reservoir" zoom-appear="8" />
+	<osm-tag key="landuse" value="cemetery" zoom-appear="10" />
+	<osm-tag key="cemetery" value="sector" zoom-appear="10" />
+	<osm-tag key="amenity" value="grave_yard" zoom-appear="10" />
 
     <osm-tag key="waterway" value="stream" zoom-appear="8"/>
     <osm-tag key="waterway" value="river" zoom-appear="8"/>
