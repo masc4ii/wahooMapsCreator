@@ -25,7 +25,8 @@
             "place_of_worship",
             "hospital",
             "bank",
-            "grave_yard"
+            "grave_yard",
+            "bicycle_repair_station"
         ],
         "shelter_type": [
         	"picnic_shelter"

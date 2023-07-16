@@ -760,6 +760,9 @@
 		  	<m v="hospital">
 				<symbol src="icons/hospital.svg" symbol-percent="110"/>
 		  	</m>
+		  	<m v="bicycle_repair_station">
+				<symbol src="icons/tool_set.svg" symbol-percent="170"/>
+		  	</m>
 		</m>
 		<m k="shop" >
 		  	<m v="bakery">

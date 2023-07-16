@@ -15,6 +15,7 @@
 	<osm-tag key="amenity"  value="bank" zoom-appear="14" />
 	<osm-tag key="amenity"  value="hospital" zoom-appear="10" />
 	<osm-tag key="amenity"  value="bench" zoom-appear="16" />
+	<osm-tag key="amenity"  value="bicycle_repair_station" zoom-appear="14" />
 	<osm-tag key="shop"     value="bakery" zoom-appear="14" />
 	<osm-tag key="shop"     value="bicycle" zoom-appear="14" />
 	<osm-tag key="tourism"  value="picnic_site" zoom-appear="14" />
@@ -43,6 +44,7 @@
 	<osm-tag key="amenity"  label-position="true" value="bank" zoom-appear="14" />
 	<osm-tag key="amenity"  label-position="true" value="hospital" zoom-appear="10" />
 	<osm-tag key="amenity"  label-position="true" value="bench" zoom-appear="16" />
+	<osm-tag key="amenity"  label-position="true" value="bicycle_repair_station" zoom-appear="14" />
 	<osm-tag key="shop"     label-position="true" value="bakery" zoom-appear="14" />
 	<osm-tag key="shop"     label-position="true" value="bicycle" zoom-appear="14" />
 	<osm-tag key="tourism"  label-position="true" value="picnic_site" zoom-appear="14" />
