@@ -87,9 +87,15 @@
 	      	<!--line cat="bolt2" width="0.5" stroke="#000000" /-->
 	    </m>
    	</m>
-   	<m e="way" k="leisure" v="park|nature_reserve">
+   	<m e="way" k="leisure" v="park">
       	<area cat="bolt2" fill="#AAFF55" />
-	  	<!--area cat="bolt2" src="icons/park.svg" symbol-height="128" /-->
+   	</m>
+   	<m e="way" k="leisure" v="nature_reserve">
+      	<line cat="bolt2" width="1.2" stroke="#AAFF55" />
+      	<line cat="bolt2" width="1" stroke="#00AA00" />
+   	</m>
+	<m e="way" k="leisure" v="nature_reserve" zoom-max="13">
+	  	<area cat="bolt2" src="icons/stripesUp.svg" symbol-height="32" />
    	</m>
    	<m e="way" k="natural" v="wetland">
       	<area cat="bolt2" fill="#00FFAA" />
@@ -761,7 +767,7 @@
 				<symbol src="icons/hospital.svg" symbol-percent="110"/>
 		  	</m>
 		  	<m v="bicycle_repair_station">
-				<symbol src="icons/tool_set.svg" symbol-percent="170"/>
+				<symbol src="icons/tool_set.svg" symbol-percent="160"/>
 		  	</m>
 		</m>
 		<m k="shop" >
