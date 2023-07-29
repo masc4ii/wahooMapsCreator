@@ -17,7 +17,7 @@
 # wahooMapsCreator
 
 The modified code will give you this result:
-<img width="1440" alt="Bildschirmfoto 2023-01-01 um 15 42 30" src="https://user-images.githubusercontent.com/30245296/210174561-94fcb439-896c-4d6d-ae53-7a4f3b80e6a8.png">
+<img width="1440" alt="wahoo" src="https://github.com/masc4ii/wahooMapsCreator/assets/30245296/75cc1776-ec0b-40df-96f5-1a0487588b8d">
 <div align="center"></div>
 
 wahooMapsCreator is a tool to create up-to-date maps for your Wahoo device. It supports BOLTv1, BOLTv2, ROAM, ROAMv2 and ELEMNT!
