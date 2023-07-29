@@ -90,18 +90,18 @@
    	<m e="way" k="leisure" v="park">
       	<area cat="bolt2" fill="#AAFF55" />
    	</m>
+   	<m e="way" k="natural" v="wetland">
+      	<area cat="bolt2" fill="#00FFAA" />
+   	</m>
+   	<m e="way" k="natural" v="beach" zoom-min="12">
+      	<area cat="bolt2" fill="#FFFF00" />
+   	</m>
    	<m e="way" k="leisure" v="nature_reserve">
       	<line cat="bolt2" width="1.2" stroke="#AAFF55" />
       	<line cat="bolt2" width="1" stroke="#00AA00" />
    	</m>
 	<m e="way" k="leisure" v="nature_reserve" zoom-max="13">
 	  	<area cat="bolt2" src="icons/stripesUp.svg" symbol-height="32" />
-   	</m>
-   	<m e="way" k="natural" v="wetland">
-      	<area cat="bolt2" fill="#00FFAA" />
-   	</m>
-   	<m e="way" k="natural" v="beach" zoom-min="12">
-      	<area cat="bolt2" fill="#FFFF00" />
    	</m>
    	<m e="way" k="man_made" v="cutline" zoom-min="14">
       	<line cat="bolt2" width="1" stroke="#AAAA55" />
@@ -281,7 +281,7 @@
 	<!-- contour lines level 12 -->
 	<m e="way" k="contour_ext" zoom-min="12" zoom-max="12">
 		<m e="way" k="contour_ext" v="elevation_medium|elevation_major">
-			<!--line use="bolt2-elevation-med-maj-z12"/-->
+			<line use="bolt2-elevation-med-maj-z12"/>
 		</m>
 	</m>
 	<!-- contour lines level 13 -->
@@ -380,12 +380,10 @@
    	<!-- endregion military -->
 
    	<!-- boundary -->
-   <m k="admin_level">
-      <m v="2">
-      	 <m zoom-min="3">
+   <m k="admin_level" v="2">
+      	<m k="boundary" v="administrative" zoom-min="3">
          	<line stroke="#AA00AA" width="2.5" cap="butt" />
-         </m>
-      </m>
+        </m>
    </m>
    <!-- endregion boundary -->
 
