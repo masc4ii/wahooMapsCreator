@@ -221,6 +221,8 @@
     <osm-tag key="access" value="private" renderable="false"/>
 
     <osm-tag key="bridge" value="yes" renderable="false"/>
+    
+    <osm-tag key="boundary" value="administrative" renderable="false"/>
 
     <osm-tag key="tracktype" value="grade1" renderable="false"/>
     <osm-tag key="tracktype" value="grade2" renderable="false"/>

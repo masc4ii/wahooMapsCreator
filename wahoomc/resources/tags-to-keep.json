@@ -9,6 +9,7 @@
         ],
         "area": "yes",
         "bicycle": "",
+        "boundary": "administrative",
         "bridge": "",
         "foot": [
             "ft_yes",
@@ -27,9 +28,6 @@
             "bank",
             "grave_yard",
             "bicycle_repair_station"
-        ],
-        "shelter_type": [
-        	"picnic_shelter"
         ],
         "shelter_type": [
         	"picnic_shelter"
