@@ -342,7 +342,7 @@
 	<!-- region lakes/reservoirs/peers over contour lines -->
 	<m e="way" k="waterway" v="river|canal">
       	<line cat="bolt2" width="1" stroke="#00AAFF" />
-      	<pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="3.0" zoom-min="14" />
+      	<pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="3.0" />
    	</m>
    	<m e="way" k="waterway" v="stream" zoom-min="14">
       	<line cat="bolt2" width="0.7" stroke="#00AAFF" />
@@ -392,9 +392,9 @@
       	<!-- highway outlines -->
       	<outline-layer cat="bolt2" id="bolt2-highway" stroke="#550000" width="1" />
       	<outline-layer cat="bolt2" id="bolt2-major-roads" stroke="#000000" width="0.6" />
-      	<outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4" zoom-min="12" />
-      	<outline-layer cat="bolt2" id="bolt2-bikepath" stroke="#000000" width="0.3" zoom-min="12"/>
-      	<outline-layer cat="bolt2" id="bolt2-private" stroke="#555555" width="0.3" zoom-min="12"/>
+      	<outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4" />
+      	<outline-layer cat="bolt2" id="bolt2-bikepath" stroke="#000000" width="0.3" />
+      	<outline-layer cat="bolt2" id="bolt2-private" stroke="#555555" width="0.3" />
       	<outline-layer id="tf:tfd_2" stroke="#46b414" width="1.05" />
       	<!-- the outline of bridges -->
       	<outline-layer id="bridge" stroke="#000000" width="1" />
@@ -618,27 +618,27 @@
                <line cat="bolt2" stroke="#FFFFFF" outline="bolt2-major-roads" width="1.5" />
             </m>
             <m e="way" k="highway" v="tertiary_link|secondary_link" zoom-min="9">
-               <pathText display="always" cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" zoom-min="14" />
+               <pathText cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFFF00" width="2.0" />
             </m>
             <m e="way" k="highway" v="primary_link|trunk_link|motorway_link" zoom-min="9">
-               <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+               <pathText cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="tertiary|secondary" zoom-min="9">
-               <pathText display="always" cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" zoom-min="14" />
+               <pathText cat="bolt2-disabled" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="2.0" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFFF00" width="2.0" />
             </m>
             <m e="way" k="highway" v="primary|trunk" zoom-min="9">
-               <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+               <pathText cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
                <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.0" />
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="12">
-               <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+               <pathText cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
                <line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="3.5"/>
             </m>
             <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-               <pathText display="always" cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+               <pathText cat="bolt2" fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
                <line cat="bolt2" outline="bolt2-highway" stroke="#AA5500" width="4"/>
             </m>
          </m>
@@ -702,7 +702,7 @@
          	<line stroke="#0000AA" width="0.5" dasharray="15,10" cap="butt" />
          </m>
          <m zoom-min="15">
-         	<pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#ffffff" stroke-width="2.0" zoom-min="15" />
+         	<pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#ffffff" stroke-width="2.0" />
          </m>
       </m>
    </m>
