@@ -812,7 +812,7 @@ class OsmMaps:
                 cmd, f'! Error creating map files for tile: {tile["x"]},{tile["y"]}')
 
             # Create "tile present" file
-            with open(out_file_map + '.lzma.17', mode='wb') as tile_present_file:
+            with open(out_file_map + '.lzma.18', mode='wb') as tile_present_file:
                 tile_present_file.close()
 
             tile_count += 1
