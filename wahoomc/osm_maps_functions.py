@@ -852,8 +852,8 @@ class OsmMaps:
             self.copy_to_dst(extension, src, dst)
 
             if extension == '.map.lzma':
-                src = src + '.17'
-                dst = dst + '.17'
+                src = src + '.18'
+                dst = dst + '.18'
                 self.copy_to_dst(extension, src, dst)
 
         if zip_folder:
